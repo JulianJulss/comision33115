@@ -17,29 +17,42 @@ body{
 
 
 
-/*estilos pagina*/
+/*estilos index pagina*/
 
 .bg_imagen{
 
     background-image: url("../img/tira\ logo_Mesa\ de\ trabajo\ 1.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 38vh;
+    height: 42vh;
 
 }
 
 
 .bg_imagenes{
 
-    background-image: url("../img/img1.jpg");
+    background-image: url("../img/crowd-of-people-with-raised-arms-having-fun-at-music-festival-by-night.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
 
+
+    width: 100%;
+    
+    object-fit: cover;
+    object-position: bottom;
+
 }
 
+.main{
+    width: 70%;
 
+}
 
+.bg_imagenes{
+    width: 100%;
+    
+}
 
 .bg_imagenes .bg_opacidad{
 
@@ -47,9 +60,10 @@ body{
     height: 100%;
     background-color: rgba(0, 0, 0, .8);
     position: absolute;
-    z-index: 1;
-
+    z-index: 0.5;
 }
+
+
 
 .bg_imagenes h1,
 .bg_imagenes a{
@@ -79,6 +93,147 @@ body{
     transform: scale(1.05);
 
 }
+
+
+/*filmacuion imagen*/
+
+
+
+
+.bg_imagenes1{
+
+    background-image: url("../img/primera\ de\ film.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+
+
+.bg_imagenes1 .bg_opacidad{
+
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    position: absolute;
+    z-index: 1;
+
+}
+
+.bg_imagenes1 h1,
+.bg_imagenes1 a{
+
+    z-index: 10;
+
+}
+
+.bg_imagenes1 h1{
+
+    color: var(--blanco);
+
+}
+
+.bg_imagenes1 a{
+
+    color: var(--blanco);
+    border: var(--principal) 1px solid;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 300ms linear;
+
+}
+
+.bg_imagenes1 a:hover{
+
+    transform: scale(1.05);
+
+}
+
+
+/*barras*/
+
+
+
+
+.bg_imagenesbarras{
+
+    background-image: url("../img/primera\ cocteles\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+
+
+
+
+.bg_imagenesbarras h1,
+.bg_imagenesbarras a{
+
+    z-index: 10;
+
+}
+
+.bg_imagenesbarras h1{
+
+    color: var(--blanco);
+
+}
+
+.bg_imagenesbarras a{
+
+    color: var(--blanco);
+    border: var(--principal) 1px solid;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 300ms linear;
+
+}
+
+.bg_imagenesbarras a:hover{
+
+    transform: scale(1.05);
+
+}
+
+/*audio*/
+
+
+
+.bg_imagenesaudio{
+
+    background-image: url("../img/mixer-de-dj_3840x2400_xtrafondos.com.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+/*cash*/
+
+.bg_imagenescash{
+
+    background-image: url("../img/weezevent-8m0a9427-1000x667.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+/*experiencia*/
+
+
+.bg_imagenesexp{
+
+    background-image: url("../img/luces.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+
 
 
 /*ESTILOS SECCION SERVICIOS*/
